@@ -1,0 +1,38 @@
+layout-macro-def(result_details) {
+
+ content {
+       image-card{
+         column-size (Three)
+         aspect-ratio(1:1)
+         title-area{
+           halign (Start)
+           slot1{
+             text{
+               value("[#{value(MealInfo.possibleEats.food_type)}: #{value(MealInfo.possibleEats.food_list[0])}]")
+               style(Title_S)
+             }
+           }
+           slot2{
+             paragraph{
+               value("하루 1/2 분량")
+               style(Detail_M)
+             }
+           }
+           slot3{
+             paragraph{
+               value("")
+             }
+           }
+         }
+         image-url("img/banana.jpg")
+        
+       }
+       // paragraph{
+       //   value("아아아")
+       // }
+      
+     }
+ //   }
+ // }
+}
+ 

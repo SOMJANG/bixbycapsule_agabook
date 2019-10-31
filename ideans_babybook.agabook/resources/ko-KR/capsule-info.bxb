@@ -1,0 +1,11 @@
+capsule-info {
+  dispatch-name (Agabook)
+  display-name (Agabook)
+  developer-name (Ideans)
+  icon-asset (./images/agabook_icon.png)
+  description ("AGABOOK")
+  search-keywords {
+    keyword (아가북)
+  }
+}
+

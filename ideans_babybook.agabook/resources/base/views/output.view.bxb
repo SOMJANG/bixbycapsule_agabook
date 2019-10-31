@@ -1,0 +1,37 @@
+// 결과를 화면에 보여주는 방식을 설정하는 파일 (https://bixbydevelopers.com/dev/docs/reference/type/result-view)
+result-view {
+ match: MealsInfo(this)
+  message {
+   template ("#{value(age)} 아기는 #{value(meal_type)}을(를) #{value(this_yes_no)}."){
+     speech("#{value(age)} 아기는 #{value(meal_type)}을(를) #{value(this_yes_no)}. 아래에서 추가로 먹을 수 있는 식품을 확인해보세요.")
+   }
+ }
+  render {
+   if(size(possibleEats.food_list)>=0){
+    
+      list-of(this.possibleEats.food_list){
+       where-each (item){
+       // layout-macro (result_details)
+     
+       }     
+     }      
+   }    
+ }
+ 
+ conversation-drivers{
+   conversation-driver{
+     template ("#{value(age)} 영아 이유식 레시피 알려줘.")
+ }
+}
+ 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

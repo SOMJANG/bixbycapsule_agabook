@@ -1,0 +1,36 @@
+layout-macro-def(result_details7) {
+ 
+ 
+ content {
+   section {  // this macro returns a "section"
+     content {
+     
+       paragraph {
+         value ("[평균 #{value(label)} #{value(height)}cm]")
+         style (Title_M)
+       }
+       image-card{
+        aspect-ratio(4:3)
+        title-area{
+          halign (Start)
+          slot1{
+            text{
+              value("")
+              style(Title_L)
+            }
+          }
+          slot2{
+            single-line{
+              text{
+                value("")
+                style(Detail_L)
+              }
+            }
+          }
+        }
+        image-url("[images/#{value(url)}]")
+      }
+     }
+   }
+ }
+}
