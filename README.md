@@ -1,7 +1,6 @@
 ● bixbycapsule_agabook
 
 <br>
-● ICON:
 
 ![agabook_icon](/ideans_babybook.agabook/assets/images/agabook_icon.png)
 <br>
