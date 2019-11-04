@@ -6,7 +6,7 @@
 <br>
 <br>
 
-● Project Description: Making a Bixby Capsule Parenting-assistant<br>
+● Project Description: a Bixby Capsule working as a Parenting-assistant<br>
 ● Intended Users: For Parents with new-born babys<br>
 
 - We are not only cover for the babies of one month to thirty-six month.
