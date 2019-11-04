@@ -7,7 +7,7 @@
 <br>
 
 ● Project Description: a Bixby Capsule working as a Parenting-assistant<br>
-● Intended Users: For Parents with new-born babys<br>
+● Intended Users: Parents with new-born babys<br>
 
 - We are not only cover for the babies of one month to thirty-six month.
 - We only cover the questions of Measurement, Meals, Vaccine.
